@@ -27,7 +27,7 @@ ${chalk.green('    `                     `')}
 
 function displayBatLogo() {
   console.log(batLogo);
-  console.log(chalk.green('  BAT LOG - The Dark Knight of Terminal Logging\n'));
+  console.log(chalk.green('\n'));
 }
 
 function encryptData(data) {
