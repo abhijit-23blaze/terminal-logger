@@ -22,13 +22,20 @@ ${chalk.green('8888888888888888888888888888888')}
 ${chalk.green('YJGS8P"Y888P"Y888P"Y888P"Y8888P')}
 ${chalk.green(' Y888   \'8\'   Y8P   \'8\'   888Y')}
 ${chalk.green('  \'8o          V          o8\'')}
-${chalk.green('    `                     `')}
+${chalk.green('    `                    `')}
 `;
 
 function displayBatLogo() {
+
+
+
   console.log(batLogo);
   console.log(chalk.green('\n'));
 }
+
+
+
+
 
 function encryptData(data) {
   return CryptoJS.AES.encrypt(JSON.stringify(data), ENCRYPTION_KEY).toString();
